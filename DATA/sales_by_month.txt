@@ -1,0 +1,14 @@
+Jan|1200
+Jan|2500
+Feb|3200
+May|1300
+May|1400
+Jun|1700
+Jul|1800
+Sep|7600
+Sep|9600
+Oct|800
+Oct|3700
+Oct|4800
+Oct|8800
+Dec|2300
