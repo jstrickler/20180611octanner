@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7b20452-8cd7-486c-803d-125f742c3e32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/carddeck.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jokerdeck.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/play_cards.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/president.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ANSWERS/president_sqlite.py" afterPath="$PROJECT_DIR$/ANSWERS/president_sqlite.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/president.py" afterPath="$PROJECT_DIR$/president.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,60 +17,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="play_cards.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/play_cards.py">
+      <file leaf-file-name="db_sqlite_basics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_basics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="303">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carddeck.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carddeck.py">
+      <file leaf-file-name="db_sql_injection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sql_injection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="432">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_mysql_parameterized.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/db_mysql_parameterized.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-217">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
-                <element signature="e#222#268#0" expanded="true" />
-                <element signature="e#304#457#0" expanded="true" />
-                <element signature="e#503#521#0" expanded="true" />
-                <element signature="e#555#582#0" expanded="true" />
-                <element signature="e#612#636#0" expanded="true" />
-                <element signature="e#887#906#0" expanded="true" />
-                <element signature="e#984#1114#0" expanded="true" />
-                <element signature="e#1179#1183#0" expanded="true" />
-                <element signature="e#1227#1233#0" expanded="true" />
-                <element signature="e#1287#1291#0" expanded="true" />
-                <element signature="e#1334#1340#0" expanded="true" />
-                <element signature="e#1391#1407#0" expanded="true" />
-                <element signature="e#1440#1463#0" expanded="true" />
-                <element signature="e#1496#1607#0" expanded="true" />
-                <element signature="e#1647#1811#0" expanded="true" />
+                <element signature="e#23#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jokerdeck.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jokerdeck.py">
+      <file leaf-file-name="db_sqlite_parameterized.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_parameterized.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#141#243#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="107">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="president.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/president.py">
+      <file leaf-file-name="db_sqlite_extras.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_extras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-143">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="president_sqlite.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ANSWERS/president_sqlite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2844">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#49#0" expanded="true" />
+                <element signature="e#324#345#0" expanded="true" />
+                <element signature="e#387#1026#0" expanded="true" />
+                <element signature="e#1075#1093#0" expanded="true" />
+                <element signature="e#1143#1161#0" expanded="true" />
+                <element signature="e#1211#1229#0" expanded="true" />
+                <element signature="e#1279#1297#0" expanded="true" />
+                <element signature="e#1348#1367#0" expanded="true" />
+                <element signature="e#1418#1437#0" expanded="true" />
+                <element signature="e#1487#1507#0" expanded="true" />
+                <element signature="e#1555#1575#0" expanded="true" />
+                <element signature="e#1620#1638#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socket_server.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/socket_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="e#55#158#0" expanded="true" />
+                <element signature="e#177#401#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,6 +155,7 @@
         <option value="$PROJECT_DIR$/play_cards.py" />
         <option value="$PROJECT_DIR$/carddeck.py" />
         <option value="$PROJECT_DIR$/president.py" />
+        <option value="$PROJECT_DIR$/ANSWERS/president_sqlite.py" />
       </list>
     </option>
   </component>
@@ -177,6 +205,11 @@
               <item name="py3octanner" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3octanner" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="py3octanner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py3octanner" type="462c0819:PsiDirectoryNode" />
+              <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,37 +244,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.play_cards">
-    <configuration name="carddeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.president_sqlite">
+    <configuration name="db_sql_injection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3octanner" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carddeck.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/db_sql_injection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="f_strings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="db_sqlite_basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3octanner" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/db_sqlite_basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +296,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="pres_upper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="president" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,42 +308,42 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3octanner" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pres_upper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/president.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="stringformat_ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="president_sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ANSWERS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3octanner" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/stringformat_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ANSWERS/president_sqlite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.stringformat_ex" />
-      <item index="1" class="java.lang.String" itemvalue="Python.f_strings" />
-      <item index="2" class="java.lang.String" itemvalue="Python.pres_upper" />
-      <item index="3" class="java.lang.String" itemvalue="Python.play_cards" />
-      <item index="4" class="java.lang.String" itemvalue="Python.carddeck" />
+      <item index="0" class="java.lang.String" itemvalue="Python.play_cards" />
+      <item index="1" class="java.lang.String" itemvalue="Python.president" />
+      <item index="2" class="java.lang.String" itemvalue="Python.db_sqlite_basics" />
+      <item index="3" class="java.lang.String" itemvalue="Python.db_sql_injection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.president_sqlite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.play_cards" />
-        <item index="1" class="java.lang.String" itemvalue="Python.carddeck" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pres_upper" />
-        <item index="3" class="java.lang.String" itemvalue="Python.f_strings" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stringformat_ex" />
+        <item index="0" class="java.lang.String" itemvalue="Python.president_sqlite" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db_sql_injection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.db_sqlite_basics" />
+        <item index="3" class="java.lang.String" itemvalue="Python.president" />
+        <item index="4" class="java.lang.String" itemvalue="Python.play_cards" />
       </list>
     </recent_temporary>
   </component>
@@ -360,11 +393,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46286702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13732004" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46804836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1631664" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16291827" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -378,7 +411,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/president.py</url>
+          <line>9</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -765,9 +806,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/president.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1188">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#114#548#0" expanded="true" />
+            <element signature="e#597#619#0" expanded="true" />
+            <element signature="e#669#692#0" expanded="true" />
+            <element signature="e#737#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sql_injection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/db_mysql_parameterized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_parameterized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/db_sqlite_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ANSWERS/president_sqlite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2844">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#49#0" expanded="true" />
+            <element signature="e#324#345#0" expanded="true" />
+            <element signature="e#387#1026#0" expanded="true" />
+            <element signature="e#1075#1093#0" expanded="true" />
+            <element signature="e#1143#1161#0" expanded="true" />
+            <element signature="e#1211#1229#0" expanded="true" />
+            <element signature="e#1279#1297#0" expanded="true" />
+            <element signature="e#1348#1367#0" expanded="true" />
+            <element signature="e#1418#1437#0" expanded="true" />
+            <element signature="e#1487#1507#0" expanded="true" />
+            <element signature="e#1555#1575#0" expanded="true" />
+            <element signature="e#1620#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#55#158#0" expanded="true" />
+            <element signature="e#177#401#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

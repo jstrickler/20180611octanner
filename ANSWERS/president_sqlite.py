@@ -73,6 +73,6 @@ class President(object):
 
 
 if __name__ == '__main__':
-    for term in 1, 16, 26, 44:
+    for term in 1, 16, 26, 45:
         p = President(term)
         print(p.first_name, p.last_name, p.party)
