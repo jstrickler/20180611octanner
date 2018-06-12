@@ -1,17 +1,20 @@
 #!/usr/bin/env python
+import types
 
 fruits = ['watermelon', 'apple', 'mango', 'kiwi', 'apricot', 'lemon', 'guava']
 
 ufruits = (fruit.upper() for fruit in fruits )     # <1>
-afruits = (fruit.title() for fruit in fruits if fruit.startswith('a'))
+afruits = (fruit.title() for fruit in fruits if
+        fruit.startswith('a'))
 
-print("ufruits:", " ".join(ufruits))
-print("afruits:", " ".join(afruits))
+print(ufruits)
+for fruit in ufruits:
+    print(fruit, end=' ')
 print()
 
 values = [ 2, 42, 18, 92, "boom", ['a', 'b', 'c'] ]
 doubles = (v * 2 for v in values)
-
+dd = [v * 2 for v in values]
 print("doubles:", end=' ')
 for d in doubles:
     print(d, end=' ')
@@ -33,3 +36,18 @@ powers = ((i, i**2, i**3) for i in range(1, 11))
 for num,square,cube in powers:
     print("{:2d} {:3d} {:4d}".format(num, square, cube))
 print()
+
+
+
+def doit(values):
+    return (v * 2 for v in values)
+
+result = doit([2, 42, 18, 92, "boom", ['a', 'b', 'c']])
+
+print(type(result))
+
+if isinstance(result, types.GeneratorType):
+    print("it is a generator")
+
+if hasattr(result, '__iter__'):
+    print("it is an iterable")
