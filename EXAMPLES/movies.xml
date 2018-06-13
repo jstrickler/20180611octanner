@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ASCII'?>
+<movies>
+  <movie name="Jaws">
+    <director>Spielberg, Stephen</director>
+  </movie>
+  <movie name="Vertigo">
+    <director>Alfred Hitchcock</director>
+  </movie>
+  <movie name="Blazing Saddles">
+    <director>Brooks, Mel</director>
+  </movie>
+  <movie name="Princess Bride">
+    <director>Reiner, Rob</director>
+  </movie>
+  <movie name="Avatar">
+    <director>Cameron, James</director>
+  </movie>
+</movies>

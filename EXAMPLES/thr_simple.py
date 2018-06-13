@@ -10,7 +10,7 @@ class SimpleThread(threading.Thread):
         self._threadnum =num
     
     def run(self): # <2>
-        time.sleep(random.randint(1,10))
+        time.sleep(random.randint(1, 3))
         print("Hello from thread {}".format(self._threadnum))
 
 for i in range(10):

@@ -22,5 +22,6 @@ print(ET.tostring(movies, pretty_print=True).decode())
 
 doc = ET.ElementTree(movies)
 
-doc.write('movies.xml')
+doc.write('movies.xml', pretty_print=True, xml_declaration=True)
+
 

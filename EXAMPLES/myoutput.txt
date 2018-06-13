@@ -1,0 +1,11 @@
+total 16
+drwx------+  3 python  staff    96 Apr 16  2014 Desktop
+drwx------+  3 python  staff    96 Apr 16  2014 Documents
+drwx------+  4 python  staff   128 Apr 16  2014 Downloads
+drwx------+ 28 python  staff   896 Dec 17 17:13 Library
+drwx------+  3 python  staff    96 Apr 16  2014 Movies
+drwx------+  3 python  staff    96 Apr 16  2014 Music
+drwx------+  3 python  staff    96 Apr 16  2014 Pictures
+drwxr-xr-x+  5 python  staff   160 Apr 16  2014 Public
+-rw-r--r--   1 python  staff  1436 Apr 16  2014 parrot.txt
+-rw-r--r--   1 python  staff   519 Jul 27  2016 remote_processes.py
