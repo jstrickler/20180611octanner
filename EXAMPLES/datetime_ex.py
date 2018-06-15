@@ -36,3 +36,19 @@ t3 = t2 - t1
 print("datetime(2007, 8, 24, 10, 4, 34):", t1)
 print("datetime(2007, 8, 24, 22, 8, 1):", t2)
 print("time diff (t2 - t1):", t3)
+
+today = date.today()
+week = timedelta(7)
+
+last_week = today - week
+next_week = today + week
+print(last_week, next_week)
+
+
+from dateutil.relativedelta import *
+
+print(date.today() + relativedelta(days=7))
+print(date.today() + relativedelta(days=-7))
+
+print(date.today() + relativedelta(months=6))
+print(date.today() + relativedelta(months=-6))

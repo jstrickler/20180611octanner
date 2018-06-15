@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 
-import urllib.request  # <1>
+import requests
 
-with urllib.request.urlopen("http://www.python.org") as response:  # <2>
-    print(response.info())  # <3>
-    print("-" * 60)
+response = requests.get("http://www.python.org")
 
-    print(response.read().decode())  # <4> <5>
+if response.status_code == requests.codes.OK:
+    print(response.content.decode())
+print()
+
+for header, value in response.headers.items():
+    print(f"{header:20.20} {value}")

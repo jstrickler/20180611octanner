@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+±#!/usr/bin/env python
 import smtplib
 import os
 from email.mime.multipart import MIMEMultipart  # <1>

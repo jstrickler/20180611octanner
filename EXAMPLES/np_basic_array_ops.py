@@ -39,9 +39,34 @@ print()
 s1 = a.sum() # <6>
 s2 = b.sum() # <6>
 print("sum of a is {0}; sum of b is {1}".format(s1,s2))
+print(a[0].sum())
 print()
 
 a += 1000 # <7>
 print(a)
+
+def doit(x):
+    return x ** 2
+
+m = doit(a)
+
+print(m)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

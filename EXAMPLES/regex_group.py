@@ -19,3 +19,5 @@ print()
 matches = re.findall(pattern, s)  # <3>
 print("matches:",  matches)
     
+for letter, number in matches:
+    print(letter, number)

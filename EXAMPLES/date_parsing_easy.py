@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
 from dateutil import parser
+from contextlib import suppress
 
 date_strings = [  # <1>
     'April 1, 2015',
@@ -14,11 +15,12 @@ date_strings = [  # <1>
     '4/1/2015 8:09 PM',
     'Apr 1, 2015 5 AM',
     'Apricot 4, 341',
+    'Apr 34, 2018',
+    'Feb 30, 2016',
+    'Feb 29, 2016',
 ]
 
 for date_string in date_strings:
-    try:
+    with suppress(ValueError):
         dt = parser.parse(date_string)  # <2>
         print(dt)
-    except ValueError as err:
-        print("Can't parse", date_string)

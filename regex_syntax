@@ -1,0 +1,132 @@
+
+ pet
+
+ p.t      "keep to the right"
+
+ p[aeiou]t
+
+ p[ aeiou]t
+
+ p[A-Za-z0-9_]t
+
+ [0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+ "290832-39-29302932039"
+
+
+  [A-Fa-f0-9]
+
+   [ \t\n\r\f\b]  \s
+
+   [0-9]          \d
+
+   [A-Za-z0-9_]   \w
+
+
+   \d\d\d-\d\d-\d\d\d\d
+
+    p[^aeiou]t   p  not-vowel t
+
+
+    [^ \t\n\r\f\b]  \S
+
+   [^0-9]          \D
+
+   [^A-Za-z0-9_]   \W
+
+   ^   $    \b
+
+
+   ^pet    rock$
+
+     ^spam$     ^\d+$
+
+
+    pat
+
+    pa+t
+
+    pa*t
+
+    pa?t
+
+    p.*t    GREEDY
+    p.*?t   NON-GREEDY
+
+
+    p.+t
+
+    p[aeiou]+t
+
+    p[aeiou]{1,}t     {n}  {n,}  {n,m}
+
+    p[aeiou]{1,2}t
+
+    (\d{1,3}\.){3}\d{1,3}
+
+    \d{3}-\d{2}-\d{4}
+
+    \(?\d{3}\)?[- ]\d{3}-\d{4}   (919) 616-2429    919-616-2429
+
+
+    (\d\d):(\d\d)
+
+
+
+    "the other lathe was lent to the therapist"
+
+
+      the
+
+      \bthe\b   \bthe   the\b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,14 +8,17 @@ AUTH_TOKEN = 'CJAssociatesTraining' # <2>
 AUTH_KEY= 'MDowYzMxMTg5Mi0yMzA5LTExZTUtODcxMC0wNzEwNDcxM2NkOTA6QVBxNklDQXU1M2RSNEkyUjBBOEpkZVNQQVJUYXY2Q3liSzBy'
 
 def main(args):
-    if len(args) < 1:
-        print("Please specify a search term")
-        sys.exit(1)
-    
+    # if len(args) < 1:
+    #     print("Please specify a search term")
+    #     sys.exit(1)
+
+    query_term = input("Please specify a search term ")
+
     response = requests.get(
         BASE_URL,
-        params={ 'q': args[0] },
-        auth=(AUTH_TOKEN, AUTH_KEY)
+        params={ 'q': query_term},
+        auth=(AUTH_TOKEN, AUTH_KEY),
+        headers={'accept': 'application/xml'}
     ) # <3>
 
     if response.status_code == requests.codes.OK:
