@@ -279,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.my_new_script">
+  <component name="RunManager" selected="Python.pandas_simple_dataframe">
     <configuration name="my_new_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3octanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,24 +293,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NOTEBOOKS/my_new_script.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="np_basic_array_ops" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py3octanner" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_basic_array_ops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,6 +334,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="pandas_simple_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py3octanner" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_simple_dataframe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="print_dir_contents" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py3octanner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,19 +371,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.np_basic_array_ops" />
       <item itemvalue="Python.np_shapes" />
       <item itemvalue="Python.np_indexing" />
       <item itemvalue="Python.print_dir_contents" />
       <item itemvalue="Python.my_new_script" />
+      <item itemvalue="Python.pandas_simple_dataframe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pandas_simple_dataframe" />
         <item itemvalue="Python.my_new_script" />
         <item itemvalue="Python.print_dir_contents" />
         <item itemvalue="Python.np_indexing" />
         <item itemvalue="Python.np_shapes" />
-        <item itemvalue="Python.np_basic_array_ops" />
       </list>
     </recent_temporary>
   </component>
